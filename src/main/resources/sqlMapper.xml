@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--加载properties文件-->
+    <!--<properties resource="jdbc.properties"></properties>-->
+    <!--定义别名-->
+    <typeAliases>
+        <package name="com.liao.domain"/>
+    </typeAliases>
+    <!--配置环境-->
+  <!--  <environments default="environment">
+        <environment id="environment">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>-->
+    <!--加载映射-->
+   <!-- <mappers>
+        <package name="com.liao.mapper"/>
+    </mappers>-->
+</configuration>
