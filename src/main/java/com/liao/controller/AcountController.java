@@ -46,7 +46,6 @@ public class AcountController {
     @ResponseBody
     public String transfer(Map<String,Object> map, String name, @RequestParam("balance")double money,Map<String,Object> map1, @RequestParam("name1")String name1, @RequestParam("balance1")double money1){
         update(map,name,money);
-        int i = 1/0;
         update(map1,name1,money1);
         return "转账成功";
     }
